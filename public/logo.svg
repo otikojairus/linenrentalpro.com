@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Linen Rental Pro logo">
+  <rect width="256" height="256" rx="40" fill="#221E1B"/>
+  <rect x="34" y="34" width="188" height="188" rx="32" fill="url(#paint0_linear)" stroke="#D7C1A2" stroke-width="4"/>
+  <path d="M63 84C63 76.268 69.268 70 77 70H179C186.732 70 193 76.268 193 84V172C193 179.732 186.732 186 179 186H77C69.268 186 63 179.732 63 172V84Z" fill="#FFF8F0"/>
+  <path d="M74 90H182" stroke="#B98B47" stroke-width="6" stroke-linecap="round"/>
+  <path d="M74 116H182" stroke="#D8C7AF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M74 142H182" stroke="#D8C7AF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M74 168H153" stroke="#D8C7AF" stroke-width="4" stroke-linecap="round"/>
+  <rect x="95" y="52" width="66" height="28" rx="14" fill="#0F7A6B"/>
+  <path d="M95 66H161" stroke="#FFF8F0" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="40" y1="34" x2="212" y2="222" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5EBDD"/>
+      <stop offset="1" stop-color="#E4D0B4"/>
+    </linearGradient>
+  </defs>
+</svg>

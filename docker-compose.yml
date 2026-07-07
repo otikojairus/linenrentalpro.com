@@ -1,0 +1,15 @@
+services:
+  linenrentalpro:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: linenrentalpro:latest
+    container_name: linenrentalpro
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      NEXT_PUBLIC_SITE_URL: https://linenrentalpro.com
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+    ports:
+      - "3000:3000"

@@ -1,0 +1,28 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract linen rental hero illustration">
+  <rect width="1600" height="1000" fill="#221E1B"/>
+  <rect x="0" y="0" width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1240" cy="210" r="330" fill="#B98B47" fill-opacity="0.18"/>
+  <circle cx="420" cy="160" r="260" fill="#0F7A6B" fill-opacity="0.14"/>
+  <rect x="130" y="140" width="1340" height="720" rx="54" fill="#F7F1E8" fill-opacity="0.06" stroke="#D8C7AF" stroke-opacity="0.18"/>
+  <rect x="220" y="210" width="1160" height="72" rx="24" fill="#FFF8F0" fill-opacity="0.9"/>
+  <rect x="220" y="320" width="1160" height="72" rx="24" fill="#FFF8F0" fill-opacity="0.76"/>
+  <rect x="220" y="430" width="1160" height="72" rx="24" fill="#FFF8F0" fill-opacity="0.82"/>
+  <rect x="220" y="540" width="1160" height="72" rx="24" fill="#FFF8F0" fill-opacity="0.68"/>
+  <rect x="220" y="650" width="1160" height="140" rx="32" fill="#FFF8F0" fill-opacity="0.16" stroke="#FFF8F0" stroke-opacity="0.18"/>
+  <rect x="270" y="684" width="520" height="18" rx="9" fill="#D8C7AF"/>
+  <rect x="270" y="718" width="680" height="18" rx="9" fill="#B98B47"/>
+  <rect x="270" y="752" width="400" height="18" rx="9" fill="#0F7A6B"/>
+  <path d="M1085 646C1132.99 646 1172 607.105 1172 559C1172 510.895 1132.99 472 1085 472C1037.01 472 998 510.895 998 559C998 607.105 1037.01 646 1085 646Z" fill="#F7F1E8" fill-opacity="0.26" stroke="#F7F1E8" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M1050 560L1080 530L1100 552L1136 516" stroke="#FFF8F0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M290 236H1260" stroke="#0F7A6B" stroke-opacity="0.35" stroke-width="8" stroke-linecap="round"/>
+  <path d="M290 346H1260" stroke="#B98B47" stroke-opacity="0.28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M290 456H1260" stroke="#B98B47" stroke-opacity="0.32" stroke-width="8" stroke-linecap="round"/>
+  <path d="M290 566H1260" stroke="#0F7A6B" stroke-opacity="0.28" stroke-width="8" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B241F"/>
+      <stop offset="0.58" stop-color="#3A2F28"/>
+      <stop offset="1" stop-color="#4A3C32"/>
+    </linearGradient>
+  </defs>
+</svg>
