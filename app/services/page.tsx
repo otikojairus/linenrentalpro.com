@@ -22,13 +22,13 @@ const serviceFaqs = [
 ];
 
 export const metadata: Metadata = {
-  title: `${SITE_NAME} Service Index`,
+  title: `${SITE_NAME} Services`,
   description:
-    "Browse linen rental, commercial laundry, uniform rental, towel service, mat rental, city, near-me, service, and cost pages.",
+    "Browse our main services, local pages, pricing guides, and city coverage in one place.",
   alternates: { canonical: "/services" },
   openGraph: {
-    title: `${SITE_NAME} Service Index`,
-    description: "Complete service and city index for Linen Rental Pro.",
+    title: `${SITE_NAME} Services`,
+    description: "Browse services, pricing, and city coverage for Linen Rental Pro.",
     url: absoluteUrl("/services"),
   },
 };
@@ -56,7 +56,7 @@ export default function ServicesPage() {
       <section className="rescue-wrap rescue-page-head rescue-split rescue-split-media">
         <div>
           <p className="rescue-kicker">Every service in one place</p>
-          <h1>Linen Rental Pro Service Index</h1>
+          <h1>Services</h1>
           <p>
             Find exactly what you need in one place. Whether you want recurring linen, uniforms, floor mats, or full
             commercial laundry, start with the broad service that fits you and drill down to your city. If you would
@@ -66,6 +66,9 @@ export default function ServicesPage() {
             <a className="rescue-call rescue-call-large" href={`tel:${PHONE_E164}`}>
               Call {PHONE_DISPLAY}
             </a>
+            <Link className="rescue-secondary" href="/">
+              Back to Home
+            </Link>
           </div>
         </div>
         <div className="rescue-media-frame">
@@ -83,7 +86,7 @@ export default function ServicesPage() {
 
       <section className="rescue-section">
         <div className="rescue-wrap">
-          <h2>Service Pillars</h2>
+          <h2>Main Services</h2>
           <div className="rescue-grid rescue-grid-3">
             {SERVICE_PILLARS.map((page) => {
               const card = pillarCardImage(page.pageSlug);
@@ -113,7 +116,7 @@ export default function ServicesPage() {
 
       <section className="rescue-section rescue-soft">
         <div className="rescue-wrap">
-          <h2>Near Me Pages</h2>
+          <h2>Nearby Searches</h2>
           <div className="rescue-grid rescue-grid-4">
             {NEAR_ME_PAGES.map((page) => (
               <Link className="rescue-chip" href={toPath(page.pageSlug)} key={page.pageSlug}>
@@ -126,7 +129,7 @@ export default function ServicesPage() {
 
       <section className="rescue-section">
         <div className="rescue-wrap">
-          <h2>Service Pages</h2>
+          <h2>Industry Pages</h2>
           <div className="rescue-grid rescue-grid-4">
             {SERVICE_PAGES.map((page) => (
               <Link className="rescue-chip" href={toPath(page.pageSlug)} key={page.pageSlug}>
@@ -139,7 +142,7 @@ export default function ServicesPage() {
 
       <section className="rescue-section rescue-band">
         <div className="rescue-wrap">
-          <h2>Cost Guides</h2>
+          <h2>Pricing Guides</h2>
           <div className="rescue-grid rescue-grid-4">
             {COST_PAGES.map((page) => (
               <Link className="rescue-chip" href={toPath(page.pageSlug)} key={page.pageSlug}>
@@ -152,7 +155,7 @@ export default function ServicesPage() {
 
       <section className="rescue-section">
         <div className="rescue-wrap">
-          <h2>City Service Pages</h2>
+          <h2>Local Pages</h2>
           <div className="rescue-grid rescue-grid-4">
             {CITY_PAGES.map((page) => (
               <Link className="rescue-chip" href={toPath(page.pageSlug)} key={page.pageSlug}>
@@ -165,7 +168,7 @@ export default function ServicesPage() {
 
       <section className="rescue-section rescue-band">
         <div className="rescue-wrap">
-          <h2>Support Pages</h2>
+          <h2>More Pages</h2>
           <div className="rescue-grid rescue-grid-4">
             {SUPPORT_PAGES.map((page) => (
               <Link className="rescue-chip" href={toPath(page.pageSlug)} key={page.pageSlug}>
@@ -178,7 +181,7 @@ export default function ServicesPage() {
 
       <section className="rescue-section">
         <div className="rescue-wrap">
-          <h2>All Pages</h2>
+          <h2>Browse All</h2>
           <div className="rescue-index-list">
             {SEO_PAGES.map((page) => (
               <Link href={toPath(page.pageSlug)} key={page.pageSlug} aria-label={pageListLabel(page)}>

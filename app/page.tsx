@@ -24,11 +24,11 @@ const homeFaqs = [
 export const metadata: Metadata = {
   title: `${SITE_NAME} | Commercial Laundry and Linen Rental`,
   description:
-    "Toronto and GTA commercial laundry, linen rental, uniform rental, towel service, and floor mat rental pages with direct call support.",
+    "Commercial laundry, linen rental, uniform rental, towel service, and floor mat service across Toronto and the GTA.",
   alternates: { canonical: "/" },
   openGraph: {
     title: `${SITE_NAME} | Commercial Laundry and Linen Rental`,
-    description: "Toronto and GTA linen rental, uniform rental, and commercial laundry pages.",
+    description: "Commercial laundry, linen rental, and uniform service across Toronto and the GTA.",
     url: absoluteUrl("/"),
     type: "website",
     siteName: SITE_NAME,
@@ -63,7 +63,7 @@ export default function HomePage() {
         />
         <div className="rescue-hero-scrim" />
         <div className="rescue-wrap rescue-hero-content">
-          <p className="rescue-kicker">Toronto and GTA service routing</p>
+          <p className="rescue-kicker">Serving Toronto and the GTA</p>
           <h1>Commercial Linen, Laundry and Uniform Rental Across the GTA</h1>
           <p>
             If you run a restaurant, hotel, clinic, gym, or industrial site, you already know how much smoother things
@@ -75,7 +75,7 @@ export default function HomePage() {
               Call {PHONE_DISPLAY}
             </a>
             <Link className="rescue-secondary" href="/services">
-              View Service Index
+              View Services
             </Link>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function HomePage() {
 
       <section className="rescue-section">
         <div className="rescue-wrap">
-          <h2>Core Service Hubs</h2>
+          <h2>Main Services</h2>
           <div className="rescue-grid rescue-grid-3">
             {SERVICE_PILLARS.map((page) => {
               const card = pillarCardImage(page.pageSlug);
@@ -114,7 +114,7 @@ export default function HomePage() {
                     />
                   </div>
                   <div className="rescue-media-card-body">
-                    <span>{page.pageType}</span>
+                    <span>Featured service</span>
                     <h3>{pageListLabel(page)}</h3>
                     <p>Keep your {pageListLabel(page).toLowerCase()} covered across {page.targetArea.toLowerCase()}, with a real person on the phone.</p>
                   </div>

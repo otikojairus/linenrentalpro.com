@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Toronto and GTA linen rental, commercial laundry, uniform rental, towel service, and floor mat pages with direct call support.",
+    "Linen rental, commercial laundry, uniform rental, towel service, and floor mat service across Toronto and the GTA.",
   alternates: { canonical: "/" },
   openGraph: {
     title: `${SITE_NAME} | Linen Rental, Uniforms and Laundry Services`,
-    description: "Toronto and GTA linen rental and commercial laundry pages with direct phone routing.",
+    description: "Linen rental and commercial laundry service across Toronto and the GTA.",
     url: absoluteUrl("/"),
     type: "website",
     siteName: SITE_NAME,

@@ -88,8 +88,8 @@ export function SiteFooter() {
           </a>
         </div>
         <div>
-          <h2>Service Hubs</h2>
-          <nav className="rescue-footer-links" aria-label="Footer service hubs">
+          <h2>Main Services</h2>
+          <nav className="rescue-footer-links" aria-label="Footer main services">
             {SERVICE_PILLARS.map((page) => (
               <Link key={page.pageSlug} href={toPath(page.pageSlug)}>
                 {footerLinkLabel(page)}
@@ -98,8 +98,8 @@ export function SiteFooter() {
           </nav>
         </div>
         <div>
-          <h2>Support Pages</h2>
-          <nav className="rescue-footer-links" aria-label="Footer support pages">
+          <h2>More Pages</h2>
+          <nav className="rescue-footer-links" aria-label="Footer more pages">
             {SUPPORT_PAGES.slice(0, 8).map((page) => (
               <Link key={page.pageSlug} href={toPath(page.pageSlug)}>
                 {footerLinkLabel(page)}
@@ -108,8 +108,8 @@ export function SiteFooter() {
           </nav>
         </div>
         <div>
-          <h2>Service Locations</h2>
-          <nav className="rescue-footer-links rescue-footer-cities" aria-label="Footer service locations">
+          <h2>Locations We Serve</h2>
+          <nav className="rescue-footer-links rescue-footer-cities" aria-label="Footer locations we serve">
             {SERVICE_LOCATIONS.map((page) => (
               <Link key={cityFromTargetArea(page.targetArea)} href={toPath(page.pageSlug)} aria-label={linkLabel(page)}>
                 {cityFromTargetArea(page.targetArea)}
