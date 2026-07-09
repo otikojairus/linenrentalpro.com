@@ -6,8 +6,8 @@ export type SeoPage = (typeof RAW_PAGES)[number];
 
 export const SITE_NAME = "Linen Rental Pro";
 export const DEFAULT_SITE_URL = "https://linenrentalpro.com";
-export const PHONE_DISPLAY = "1-888-689-6881";
-export const PHONE_E164 = "+18886896881";
+export const PHONE_DISPLAY = "1-888-621-1053";
+export const PHONE_E164 = "+18886211053";
 
 export const SEO_PAGES: SeoPage[] = [...RAW_PAGES];
 export const SERVICE_PILLARS = SEO_PAGES.filter((page) => page.pageType === "Service Pillar");
