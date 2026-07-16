@@ -105,6 +105,24 @@ export function linkLabel(page: SeoPage) {
   return isCityPage(page) ? cityFromTargetArea(page.targetArea) : pageListLabel(page);
 }
 
+/**
+ * Compact, unique label for flat index lists. City pages get "{City} — {Service}"
+ * so that multiple pages in the same city stay distinct without repeating the full
+ * keyword-stuffed page title on every line.
+ */
+export function indexLabel(page: SeoPage) {
+  if (!isCityPage(page)) return pageListLabel(page);
+
+  const city = cityFromTargetArea(page.targetArea);
+  const slug = toPath(page.pageSlug).replace(/\/+$/, "");
+  let service = "Commercial Laundry & Linen";
+  if (slug.includes("uniform-rental")) service = "Uniform Rental";
+  else if (slug.includes("linen-service") || slug.includes("linen-rental")) service = "Linen Service";
+  else if (slug.includes("commercial-laundry")) service = "Commercial Laundry";
+
+  return `${city} — ${service}`;
+}
+
 /** Keyword-rich anchor text for internal links (never a generic "click here"). */
 export function anchorText(page: SeoPage) {
   return titleCase(page.primaryKeyword);

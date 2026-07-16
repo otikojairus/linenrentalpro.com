@@ -613,7 +613,13 @@ p {
   min-height: 44px;
   margin-bottom: 0.35rem;
   break-inside: avoid;
-  color: #f3eee7;
+  color: var(--teal-dark);
+  font-weight: 700;
+}
+
+.rescue-index-list a:hover {
+  color: var(--teal);
+  text-decoration: underline;
 }
 
 .rescue-footer {

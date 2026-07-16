@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { JsonLd } from "@/components/json-ld";
 import { SERVICES_HERO, pillarCardImage } from "@/lib/images";
-import { CITY_PAGES, COST_PAGES, NEAR_ME_PAGES, PHONE_DISPLAY, PHONE_E164, SEO_PAGES, SERVICE_PAGES, SERVICE_PILLARS, SITE_NAME, SUPPORT_PAGES, absoluteUrl, linkLabel, pageListLabel, toPath } from "@/lib/site-data";
+import { CITY_PAGES, COST_PAGES, NEAR_ME_PAGES, PHONE_DISPLAY, PHONE_E164, SEO_PAGES, SERVICE_PAGES, SERVICE_PILLARS, SITE_NAME, SUPPORT_PAGES, absoluteUrl, indexLabel, linkLabel, pageListLabel, toPath } from "@/lib/site-data";
 import { breadcrumbSchema } from "@/lib/schema";
 
 const serviceFaqs = [
@@ -185,7 +185,7 @@ export default function ServicesPage() {
           <div className="rescue-index-list">
             {SEO_PAGES.map((page) => (
               <Link href={toPath(page.pageSlug)} key={page.pageSlug} aria-label={pageListLabel(page)}>
-                {pageListLabel(page)}
+                {indexLabel(page)}
               </Link>
             ))}
           </div>
